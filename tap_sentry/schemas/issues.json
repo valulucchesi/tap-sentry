@@ -6,6 +6,7 @@
   "properties":{
     "platform":{
       "type":[
+        "null",
         "string"
       ]
     },
@@ -30,76 +31,91 @@
     },
     "stats":{
       "type":[
+        "null",
         "object"
       ]
     },
     "culprit":{
       "type":[
+        "null",
         "string"
       ]
     },
     "title":{
       "type":[
+        "null",
         "string"
       ]
     },
     "id":{
       "type":[
-        "integer"
+        "null",
+        "string"
       ]
     },
     "assignedTo":{
       "type":[
+        "null",
         "string"
       ]
     },
     "logger":{
       "type":[
+        "null",
         "string"
       ]
     },
     "type":{
       "type":[
+        "null",
         "string"
       ]
     },
     "annotations":{
       "type":[
+        "null",
         "array"
       ]
     },
     "metadata":{
       "type":[
+        "null",
         "object"
       ]
     },
     "status":{
       "type":[
+        "null",
         "string"
       ]
     },
     "subscriptionDetails":{
       "type":[
+        "null",
         "string"
       ]
     },
     "isPublic":{
       "type":[
+        "null",
         "boolean"
       ]
     },
     "hasSeen":{
       "type":[
+        "null",
         "boolean"
       ]
     },
     "shortId":{
       "type":[
+        "null",
         "string"
       ]
     },
     "shareId":{
       "type":[
+        "null",
         "string"
       ]
     },
@@ -112,36 +128,43 @@
     },
     "count":{
       "type":[
-        "integer"
+        "null",
+        "string"
       ]
     },
     "permalink":{
       "type":[
+        "null",
         "string"
       ]
     },
     "level":{
       "type":[
+        "null",
         "string"
       ]
     },
     "isSubscribed":{
       "type":[
+        "null",
         "boolean"
       ]
     },
     "isBookmarked":{
       "type":[
+        "null",
         "boolean"
       ]
     },
     "project":{
       "type":[
+        "null",
         "object"
       ]
     },
     "statusDetails":{
       "type":[
+        "null",
         "object"
       ]
     }

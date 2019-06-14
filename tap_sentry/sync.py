@@ -96,7 +96,7 @@ class SentrySync:
         stream = "issues"
         loop = asyncio.get_running_loop()
 
-        singer.write_schema(stream, schema.to_dict(), ["eventID"])
+        singer.write_schema(stream, schema.to_dict(), ["id"])
         projects = await loop.run_in_executor(None, self.client.projects)
         if projects:
             for project in projects:
@@ -111,7 +111,7 @@ class SentrySync:
         stream = "events"
         loop = asyncio.get_running_loop()
 
-        singer.write_schema(stream, schema.to_dict(), ["id"])
+        singer.write_schema(stream, schema.to_dict(), ["eventID"])
         projects = await loop.run_in_executor(None, self.client.projects)
         if projects:
             for project in projects:

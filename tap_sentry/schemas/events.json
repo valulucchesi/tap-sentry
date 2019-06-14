@@ -120,7 +120,7 @@
       "groupID":{
          "type":[
             "null",
-            "integer"
+            "string"
          ]
       }
    },
