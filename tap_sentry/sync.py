@@ -43,7 +43,7 @@ class SentryClient:
         response = self.session.get(url, params=params)
         response.raise_for_status()
 
-        return response.json()
+        return response
 
     def bill(self, at: datetime):
         try:
@@ -53,21 +53,64 @@ class SentryClient:
 
     def projects(self):
         try:
-            return self._get(f"projects/")
+            projects = self._get(f"projects/")
+            return projects.json()
         except:
             return None
 
-    def issues(self, project_id):
+    def issues(self, project_id, state):
         try:
-            return self._get(f"/organizations/split-software/issues/?project={project_id}")
+            response = self._get(f"/organizations/split-software/issues/?project={project_id}&statsPeriod=1d")
+            issues = response.json()
+            url= response.url
+            while (response.links['next']['results'] == 'true'):
+                url = response.links['next']['url']
+                response = self.session.get(url)
+                issues += response.json()
+            singer.write_bookmark(state, 'issues', 'latest', url)
+            return issues
+
         except:
             return None
 
-    def events(self, project_id):
+    def events(self, project_id, state):
         try:
-            return self._get(f"/organizations/split-software/events/?project={project_id}")
+            response = self._get(f"/organizations/split-software/events/?project={project_id}&statsPeriod=1d")
+            events = response.json()
+            url= response.url
+            while (response.links['next']['results'] == 'true'):
+                url = response.links['next']['url']
+                response = self.session.get(url)
+                events += response.json()
+            singer.write_bookmark(state, 'issues', 'latest', url)
+            return events
         except:
             return None
+
+    def teams(self, state):
+        try:
+            response = self._get(f"/organizations/split-software/teams/")
+            teams = response.json()
+            extraction_time = singer.utils.now()
+            while (response.links['next']['results'] == 'true'):
+                url = response.links['next']['url']
+                response = self.session.get(url)
+                teams += response.json()
+            singer.write_bookmark(state, 'teams', 'dateCreated', singer.utils.strftime(extraction_time))
+            return teams
+        except:
+            return None
+
+    def users(self, state):
+        try:
+            response = self._get(f"/organizations/split-software/users/")
+            users = response.json()
+            extraction_time = singer.utils.now()
+            singer.write_bookmark(state, 'teams', 'dateCreated', singer.utils.strftime(extraction_time))
+            return users
+        except:
+            return None
+
 
 class SentrySync:
     def __init__(self, client: SentryClient, state={}):
@@ -100,7 +143,7 @@ class SentrySync:
         projects = await loop.run_in_executor(None, self.client.projects)
         if projects:
             for project in projects:
-                issues = await loop.run_in_executor(None, self.client.issues, project['id'])
+                issues = await loop.run_in_executor(None, self.client.issues, project['id'], self.state)
                 if (issues):
                     for issue in issues:
                         singer.write_record(stream, issue)
@@ -115,7 +158,27 @@ class SentrySync:
         projects = await loop.run_in_executor(None, self.client.projects)
         if projects:
             for project in projects:
-                events = await loop.run_in_executor(None, self.client.events, project['id'])
+                events = await loop.run_in_executor(None, self.client.events, project['id'], self.state)
                 if events:
                     for event in events:
                         singer.write_record(stream, event)
+
+    async def sync_users(self, schema):
+        "Users in the organization."
+        stream = "users"
+        loop = asyncio.get_running_loop()
+        singer.write_schema(stream, schema.to_dict(), ["id"])
+        users = await loop.run_in_executor(None, self.client.users, self.state)
+        if users:
+            for user in users:
+                singer.write_record(stream, user)
+
+    async def sync_teams(self, schema):
+        "Teams in the organization."
+        stream = "teams"
+        loop = asyncio.get_running_loop()
+        singer.write_schema(stream, schema.to_dict(), ["id"])
+        teams = await loop.run_in_executor(None, self.client.teams, self.state)
+        if teams:
+            for team in teams:
+                singer.write_record(stream, team)

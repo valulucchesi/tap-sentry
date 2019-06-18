@@ -160,7 +160,33 @@
       "type":[
         "null",
         "object"
-      ]
+      ],
+      "properties":{
+        "platform":{
+          "type":[
+            "null",
+            "string"
+          ]
+        },
+        "slug":{
+          "type":[
+            "null",
+            "string"
+          ]
+        },
+        "id":{
+          "type":[
+            "null",
+            "string"
+          ]
+        },
+        "name":{
+          "type":[
+            "null",
+            "string"
+          ]
+        }
+      }
     },
     "statusDetails":{
       "type":[
