@@ -142,7 +142,7 @@ class SentrySync:
     async def sync_issues(self, schema, period: pendulum.period = None):
         """Issues per project."""
         stream = "issues"
-        loop = asyncio.get_running_loop()
+        loop = asyncio.get_event_loop()
 
         singer.write_schema(stream, schema.to_dict(), ["id"])
         projects = await loop.run_in_executor(None, self.client.projects)
@@ -159,7 +159,7 @@ class SentrySync:
     async  def sync_events(self, schema, period: pendulum.period = None):
         """Events per project."""
         stream = "events"
-        loop = asyncio.get_running_loop()
+        loop = asyncio.get_event_loop()
 
         singer.write_schema(stream, schema.to_dict(), ["eventID"])
         projects = await loop.run_in_executor(None, self.client.projects)
@@ -175,7 +175,7 @@ class SentrySync:
     async def sync_users(self, schema):
         "Users in the organization."
         stream = "users"
-        loop = asyncio.get_running_loop()
+        loop = asyncio.get_event_loop()
         singer.write_schema(stream, schema.to_dict(), ["id"])
         users = await loop.run_in_executor(None, self.client.users, self.state)
         if users:
@@ -187,7 +187,7 @@ class SentrySync:
     async def sync_teams(self, schema):
         "Teams in the organization."
         stream = "teams"
-        loop = asyncio.get_running_loop()
+        loop = asyncio.get_event_loop()
         singer.write_schema(stream, schema.to_dict(), ["id"])
         teams = await loop.run_in_executor(None, self.client.teams, self.state)
         if teams:
