@@ -67,7 +67,7 @@ class SentryClient:
                 url = response.links['next']['url']
                 response = self.session.get(url)
                 issues += response.json()
-            singer.write_bookmark(state, 'issues', 'latest', url)
+            state = singer.write_bookmark(state, 'issues', 'latest', url)
             return issues
 
         except:
@@ -82,7 +82,7 @@ class SentryClient:
                 url = response.links['next']['url']
                 response = self.session.get(url)
                 events += response.json()
-            singer.write_bookmark(state, 'issues', 'latest', url)
+            state = singer.write_bookmark(state, 'events', 'latest', url)
             return events
         except:
             return None
@@ -96,7 +96,6 @@ class SentryClient:
                 url = response.links['next']['url']
                 response = self.session.get(url)
                 teams += response.json()
-            singer.write_bookmark(state, 'teams', 'dateCreated', singer.utils.strftime(extraction_time))
             return teams
         except:
             return None
@@ -105,8 +104,6 @@ class SentryClient:
         try:
             response = self._get(f"/organizations/split-software/users/")
             users = response.json()
-            extraction_time = singer.utils.now()
-            singer.write_bookmark(state, 'teams', 'dateCreated', singer.utils.strftime(extraction_time))
             return users
         except:
             return None
@@ -172,6 +169,8 @@ class SentrySync:
         if users:
             for user in users:
                 singer.write_record(stream, user)
+        extraction_time = singer.utils.now()
+        self.state = singer.write_bookmark(self.state, 'users', 'dateCreated', singer.utils.strftime(extraction_time))
 
     async def sync_teams(self, schema):
         "Teams in the organization."
@@ -182,3 +181,5 @@ class SentrySync:
         if teams:
             for team in teams:
                 singer.write_record(stream, team)
+        extraction_time = singer.utils.now()
+        self.state = singer.write_bookmark(self.state, 'teams', 'dateCreated', singer.utils.strftime(extraction_time))

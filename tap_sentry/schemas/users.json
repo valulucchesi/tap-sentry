@@ -38,7 +38,7 @@
               "is_verified":{
                 "type":[
                   "null",
-                  "boolean "
+                  "boolean"
                 ]
               },
               "id":{
@@ -59,7 +59,7 @@
         "isManaged":{
           "type":[
             "null",
-            "string"
+            "boolean"
           ]
         },
         "lastActive":{
@@ -133,7 +133,7 @@
               "id":{
                 "type":[
                   "null",
-                  "integer"
+                  "string"
                 ]
               }
             }
@@ -199,7 +199,7 @@
             "clock24Hours":{
               "type":[
                 "null",
-                "string"
+                "boolean"
               ]
             }
           },
@@ -245,7 +245,7 @@
         "hasPasswordAuth":{
           "type":[
             "null",
-            "object"
+            "boolean"
           ]
         },
         "email":{
