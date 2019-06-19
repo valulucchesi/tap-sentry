@@ -77,7 +77,7 @@ def create_sync_tasks(config, state, catalog):
 
     return asyncio.gather(*sync_tasks)
 
-def sync(config, state, catalog):
+def  sync(config, state, catalog):
     loop = asyncio.get_event_loop()
     try:
         tasks = create_sync_tasks(config, state, catalog)
@@ -103,9 +103,10 @@ def main():
             catalog = discover()
 
         config = args.config
-        state = {
+        state ={
             "bookmarks": {
-                "bills": {"start_time": config["start_date"]}
+               "issues": {"start": config["start_date"]},
+                "events": {"start": config["start_date"]}
             }
         }
         state.update(args.state)
