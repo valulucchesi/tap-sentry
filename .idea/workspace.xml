@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6078c44a-cf26-471f-a757-1fedddbe4320" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tap_sentry/sync.py" beforeDir="false" afterPath="$PROJECT_DIR$/tap_sentry/sync.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,22 +39,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.7/site-packages/singer/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
+            <state relative-caret-position="1489">
               <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tap_sentry/sync.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="144" column="39" selection-start-line="144" selection-start-column="39" selection-end-line="144" selection-end-column="39" />
+            <state relative-caret-position="453">
+              <caret line="160" column="52" lean-forward="true" selection-start-line="160" selection-start-column="52" selection-end-line="160" selection-end-column="52" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/projects.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
+              <folding>
+                <element signature="e#32#46#0" />
+                <element signature="e#110#124#0" />
+                <element signature="e#193#207#0" />
+                <element signature="e#279#301#0" />
+                <element signature="e#357#825#0" />
+                <element signature="e#431#819#0" />
+                <element signature="e#903#927#0" />
+                <element signature="e#987#1079#0" />
+                <element signature="e#1102#1229#0" />
+                <element signature="e#1324#1331#0" />
+                <element signature="e#1403#1728#0" />
+                <element signature="e#1820#1827#0" />
+                <element signature="e#1904#1996#0" />
+                <element signature="e#2018#2040#0" />
+                <element signature="e#2095#2102#0" />
+                <element signature="e#2182#2204#0" />
+                <element signature="e#2264#2288#0" />
               </folding>
             </state>
           </provider>
@@ -100,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/users.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="117" column="16" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+            <state relative-caret-position="525">
+              <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="36" />
               <folding>
                 <element signature="n#!!block;n#username#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#lastLogin#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
@@ -109,22 +136,12 @@
                 <element signature="n#!!block;n#emails#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#isManaged#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#lastActive#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#dateVerified#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#provider#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#dateSynced#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#slug#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#name#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.7/site-packages/singer/bookmarks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -140,7 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>key</find>
       <find>key_properties</find>
       <find>invoi</find>
       <find>reco</find>
@@ -170,6 +186,7 @@
       <find>start</find>
       <find>start_</find>
       <find>teams</find>
+      <find>projects</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -197,6 +214,7 @@
         <option value="$PROJECT_DIR$/tap_sentry/schemas/borrar.json" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/users.json" />
         <option value="$PROJECT_DIR$/tap_sentry/__init__.py" />
+        <option value="$PROJECT_DIR$/tap_sentry/schemas/projects.json" />
         <option value="$PROJECT_DIR$/tap_sentry/sync.py" />
       </list>
     </option>
@@ -365,8 +383,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50098234" side_tool="true" weight="0.2899878" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5848596" visible="true" weight="0.2974537" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37962964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5848596" weight="0.2974537" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19560185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32756633" />
@@ -399,12 +417,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tap_sentry/sync.py</url>
-          <line>64</line>
+          <line>58</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tap_sentry/sync.py</url>
-          <line>82</line>
+          <line>76</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
@@ -695,27 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="117" column="16" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!block;n#username#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#lastLogin#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#isSuperuser#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#emails#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#isManaged#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#lastActive#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#dateVerified#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#provider#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#dateSynced#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#slug#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#name#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tap_sentry/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
@@ -726,20 +723,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tap_sentry/sync.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="144" column="39" selection-start-line="144" selection-start-column="39" selection-end-line="144" selection-end-column="39" />
+        <state relative-caret-position="1489">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="36" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="n#!!block;n#username#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#lastLogin#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#isSuperuser#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#emails#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#isManaged#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#lastActive#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#provider#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#dateSynced#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#slug#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#name#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/utils.py">
+    <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/projects.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="255">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="e#32#46#0" />
+            <element signature="e#110#124#0" />
+            <element signature="e#193#207#0" />
+            <element signature="e#279#301#0" />
+            <element signature="e#357#825#0" />
+            <element signature="e#431#819#0" />
+            <element signature="e#903#927#0" />
+            <element signature="e#987#1079#0" />
+            <element signature="e#1102#1229#0" />
+            <element signature="e#1324#1331#0" />
+            <element signature="e#1403#1728#0" />
+            <element signature="e#1820#1827#0" />
+            <element signature="e#1904#1996#0" />
+            <element signature="e#2018#2040#0" />
+            <element signature="e#2095#2102#0" />
+            <element signature="e#2182#2204#0" />
+            <element signature="e#2264#2288#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tap_sentry/sync.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="160" column="52" lean-forward="true" selection-start-line="160" selection-start-column="52" selection-end-line="160" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

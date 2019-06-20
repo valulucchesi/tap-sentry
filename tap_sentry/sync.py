@@ -47,12 +47,6 @@ class SentryClient:
 
         return response
 
-    def bill(self, at: datetime):
-        try:
-            return self._get(f"billing/v2/year/{at.year}/month/{at.month}")
-        except:
-            return None
-
     def projects(self):
         try:
             projects = self._get(f"projects/")
@@ -153,7 +147,18 @@ class SentrySync:
                 if (issues):
                     for issue in issues:
                         singer.write_record(stream, issue)
+
         self.state = singer.write_bookmark(self.state, 'issues', 'start', singer.utils.strftime(extraction_time))
+
+    async  def sync_projects(self, schema):
+        """Issues per project."""
+        stream = "projects"
+        loop = asyncio.get_event_loop()
+        singer.write_schema('projects', schema.to_dict(), ["id"])
+        projects = await loop.run_in_executor(None, self.client.projects)
+        if projects:
+            for project in projects:
+                singer.write_record(stream, project)
 
 
     async  def sync_events(self, schema, period: pendulum.period = None):
