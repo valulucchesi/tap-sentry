@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6078c44a-cf26-471f-a757-1fedddbe4320" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tap_sentry/sync.py" beforeDir="false" afterPath="$PROJECT_DIR$/tap_sentry/sync.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +20,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tap_sentry/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-              <folding>
-                <element signature="e#23#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2019.1/python_stubs/-1199943126/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3823">
+            <state relative-caret-position="71730">
               <caret line="4782" column="8" selection-start-line="4782" selection-start-column="8" selection-end-line="4782" selection-end-column="8" />
             </state>
           </provider>
@@ -42,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.7/site-packages/singer/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1489">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="1170">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -51,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tap_sentry/sync.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="160" column="52" lean-forward="true" selection-start-line="160" selection-start-column="52" selection-end-line="160" selection-end-column="52" />
+            <state relative-caret-position="158">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -63,26 +52,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/projects.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="148" selection-start-line="148" selection-end-line="148" />
+            <state relative-caret-position="1185">
+              <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
               <folding>
-                <element signature="e#32#46#0" />
-                <element signature="e#110#124#0" />
-                <element signature="e#193#207#0" />
-                <element signature="e#279#301#0" />
-                <element signature="e#357#825#0" />
-                <element signature="e#431#819#0" />
-                <element signature="e#903#927#0" />
-                <element signature="e#987#1079#0" />
-                <element signature="e#1102#1229#0" />
-                <element signature="e#1324#1331#0" />
-                <element signature="e#1403#1728#0" />
-                <element signature="e#1820#1827#0" />
-                <element signature="e#1904#1996#0" />
-                <element signature="e#2018#2040#0" />
-                <element signature="e#2095#2102#0" />
-                <element signature="e#2182#2204#0" />
-                <element signature="e#2264#2288#0" />
+                <element signature="n#!!block;n#firstEvent#0;n#!!block;n#properties#0;n#!!top" />
+                <element signature="n#!!block;n#dateCreated#0;n#!!block;n#properties#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -91,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.7/site-packages/pendulum/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="289">
               <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
             </state>
           </provider>
@@ -100,8 +74,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.7/site-packages/pytz/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
+            <state relative-caret-position="423">
               <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/singer/messages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -109,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="7860">
               <caret line="538" selection-start-line="538" selection-end-line="538" />
             </state>
           </provider>
@@ -118,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/thread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-824">
+            <state relative-caret-position="432">
               <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
@@ -127,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/users.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="36" />
+            <state relative-caret-position="2160">
+              <caret line="198" column="28" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
               <folding>
                 <element signature="n#!!block;n#username#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#lastLogin#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
@@ -136,11 +119,6 @@
                 <element signature="n#!!block;n#emails#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#isManaged#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
                 <element signature="n#!!block;n#lastActive#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#provider#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#dateSynced#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#slug#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#name#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -157,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>key_properties</find>
-      <find>invoi</find>
       <find>reco</find>
       <find>group</find>
       <find>assign</find>
@@ -166,7 +142,6 @@
       <find>key_pro</find>
       <find>event</find>
       <find>1308527</find>
-      <find>project</find>
       <find>projectId</find>
       <find>98091</find>
       <find>projectId&quot;: &quot;1452231</find>
@@ -185,8 +160,11 @@
       <find>state</find>
       <find>start</find>
       <find>start_</find>
-      <find>teams</find>
+      <find>&quot;stream&quot;: &quot;pr</find>
+      <find>team</find>
+      <find>project</find>
       <find>projects</find>
+      <find>teams</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -212,18 +190,17 @@
         <option value="$PROJECT_DIR$/tap_sentry/schemas/user.json" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/teams.json" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/borrar.json" />
-        <option value="$PROJECT_DIR$/tap_sentry/schemas/users.json" />
         <option value="$PROJECT_DIR$/tap_sentry/__init__.py" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/projects.json" />
+        <option value="$PROJECT_DIR$/tap_sentry/schemas/users.json" />
         <option value="$PROJECT_DIR$/tap_sentry/sync.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
-    <option name="y" value="25" />
-    <option name="width" value="1620" />
-    <option name="height" value="941" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,7 +209,6 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -255,6 +231,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +267,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tap_sentry/__init__.py" />
-      <option name="PARAMETERS" value="-c $USER_HOME$/analytics/config-sentry.json --catalog $USER_HOME$/analytics/sentry-properties.json -s $USER_HOME$/analytics/sentry-state.json" />
+      <option name="PARAMETERS" value="-c $USER_HOME$/analytics/config-sentry.json --catalog $USER_HOME$/analytics/sentry-properties.json" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -371,10 +348,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="956" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.2899878" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.2936508" />
       <window_info id="Structure" order="1" sideWeight="0.50098234" side_tool="true" weight="0.2899878" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,8 +360,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50098234" side_tool="true" weight="0.2899878" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5848596" weight="0.2974537" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19560185" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5848596" weight="0.40581396" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3267442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32756633" />
@@ -415,16 +392,6 @@
           <line>498</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tap_sentry/sync.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tap_sentry/sync.py</url>
-          <line>76</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -435,6 +402,26 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>self.session.get(url, params=params)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>projects.json()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>projects</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>project</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>self._get('/organizations/split-software/issues/?project=1452231&amp;start=2019-06-19T15%3A05%3A44')</expression-string>
         <language-id>Python</language-id>
@@ -457,26 +444,6 @@
       </expression>
       <expression>
         <expression-string>urllib.parse.quote(.format(bookmark))</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>datetime.strptime(bookmark, offset=None)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>datetime.strptime(bookmark, '%Y-%m-%dT%H:%M:%S.%f', offset=None)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>datetime.strptime(bookmark, '%Y-%m-%dT%H:%M:%S.%f')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>datetime.strptime(bookmark, '%Y-%m-%dT%H:%M:%S.%f%')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -595,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/messages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3210">
-          <caret line="220" column="4" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -647,30 +607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/borrar.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2489">
-          <caret line="705" selection-start-line="705" selection-end-line="705" />
-          <folding>
-            <element signature="e#20#3029#0" />
-            <element signature="e#3035#7914#0" />
-            <element signature="e#7920#12866#0" />
-            <element signature="e#13193#13306#0" />
-            <element signature="e#13334#13485#0" />
-            <element signature="e#13515#13629#0" />
-            <element signature="e#13654#14386#0" />
-            <element signature="e#14414#14528#0" />
-            <element signature="e#14557#14708#0" />
-            <element signature="e#14921#15064#0" />
-            <element signature="e#15101#15288#0" />
-            <element signature="e#15321#15915#0" />
-            <element signature="e#15950#16137#0" />
-            <element signature="e#16174#16564#0" />
-            <element signature="e#16591#16734#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/borrar.json" />
     <entry file="file:///usr/local/lib/python3.7/site-packages/singer/bookmarks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -678,44 +615,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="538" selection-start-line="538" selection-end-line="538" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3823">
-          <caret line="4782" column="8" selection-start-line="4782" selection-start-column="8" selection-end-line="4782" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/pytz/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/pendulum/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-824">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tap_sentry/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
+        <state relative-caret-position="1065">
           <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="e#23#32#0" expanded="true" />
@@ -723,17 +625,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2019.1/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71730">
+          <caret line="4782" column="8" selection-start-line="4782" selection-start-column="8" selection-end-line="4782" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/singer/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1489">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="1170">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7860">
+          <caret line="538" selection-start-line="538" selection-end-line="538" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/users.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="36" />
+        <state relative-caret-position="2160">
+          <caret line="198" column="28" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
           <folding>
             <element signature="n#!!block;n#username#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
             <element signature="n#!!block;n#lastLogin#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
@@ -741,45 +657,53 @@
             <element signature="n#!!block;n#emails#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
             <element signature="n#!!block;n#isManaged#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
             <element signature="n#!!block;n#lastActive#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#provider#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#dateSynced#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#slug#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#name#0;n#!!block;n#organization#0;n#!!block;n#properties#0;n#!!block;n#items#0;n#!!block;n#identities#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pytz/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pendulum/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/messages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/projects.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        <state relative-caret-position="1185">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
           <folding>
-            <element signature="e#32#46#0" />
-            <element signature="e#110#124#0" />
-            <element signature="e#193#207#0" />
-            <element signature="e#279#301#0" />
-            <element signature="e#357#825#0" />
-            <element signature="e#431#819#0" />
-            <element signature="e#903#927#0" />
-            <element signature="e#987#1079#0" />
-            <element signature="e#1102#1229#0" />
-            <element signature="e#1324#1331#0" />
-            <element signature="e#1403#1728#0" />
-            <element signature="e#1820#1827#0" />
-            <element signature="e#1904#1996#0" />
-            <element signature="e#2018#2040#0" />
-            <element signature="e#2095#2102#0" />
-            <element signature="e#2182#2204#0" />
-            <element signature="e#2264#2288#0" />
+            <element signature="n#!!block;n#firstEvent#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#dateCreated#0;n#!!block;n#properties#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tap_sentry/sync.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="160" column="52" lean-forward="true" selection-start-line="160" selection-start-column="52" selection-end-line="160" selection-end-column="52" />
+        <state relative-caret-position="158">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

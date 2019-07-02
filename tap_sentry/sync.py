@@ -49,7 +49,7 @@ class SentryClient:
 
     def projects(self):
         try:
-            projects = self._get(f"projects/")
+            projects = self._get(f"/organizations/split-software/projects/")
             return projects.json()
         except:
             return None
