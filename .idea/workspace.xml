@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6078c44a-cf26-471f-a757-1fedddbe4320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/data_test/events_output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/data_test/issues_output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/data_test/projects_output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_sentry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tap_sentry/sync.py" beforeDir="false" afterPath="$PROJECT_DIR$/tap_sentry/sync.py" afterDir="false" />
     </list>
@@ -19,29 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2019.1/python_stubs/-1199943126/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71730">
-              <caret line="4782" column="8" selection-start-line="4782" selection-start-column="8" selection-end-line="4782" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.7/site-packages/singer/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tap_sentry/sync.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="-651">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -50,76 +36,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/projects.json">
+        <entry file="file://$PROJECT_DIR$/tests/test_sentry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+            <state relative-caret-position="412">
+              <caret line="118" column="86" lean-forward="true" selection-start-line="118" selection-start-column="86" selection-end-line="118" selection-end-column="86" />
               <folding>
-                <element signature="n#!!block;n#firstEvent#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#dateCreated#0;n#!!block;n#properties#0;n#!!top" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.7/site-packages/pendulum/parser.py">
+        <entry file="file://$PROJECT_DIR$/tests/data_test/projects_output.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+            <state>
+              <caret column="40" selection-start-column="40" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.7/site-packages/pytz/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.7/site-packages/singer/messages.py">
+        <entry file="file://$PROJECT_DIR$/tap_sentry/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7860">
-              <caret line="538" selection-start-line="538" selection-end-line="538" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/thread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/users.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="198" column="28" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
+            <state relative-caret-position="178">
+              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="8" />
               <folding>
-                <element signature="n#!!block;n#username#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#lastLogin#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#isSuperuser#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#emails#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#isManaged#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
-                <element signature="n#!!block;n#lastActive#0;n#!!block;n#properties#0;n#!!block;n#user#0;n#!!block;n#properties#0;n#!!top" />
+                <element signature="e#23#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/events.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1395">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8460">
+              <caret line="578" selection-start-line="578" selection-end-line="578" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9930">
+              <caret line="675" selection-start-line="675" selection-end-line="675" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1665">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -135,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reco</find>
       <find>group</find>
       <find>assign</find>
       <find>count</find>
@@ -161,9 +154,10 @@
       <find>start</find>
       <find>start_</find>
       <find>&quot;stream&quot;: &quot;pr</find>
-      <find>team</find>
       <find>project</find>
       <find>projects</find>
+      <find>team</find>
+      <find>urllib</find>
       <find>teams</find>
     </findStrings>
     <replaceStrings>
@@ -184,16 +178,24 @@
         <option value="$PROJECT_DIR$/tap_fastly/__init__.py" />
         <option value="$PROJECT_DIR$/tap_fastly/schemas/stats.json" />
         <option value="$PROJECT_DIR$/tap_fastly/sync.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/events.json" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/issues.json" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/user.json" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/teams.json" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/borrar.json" />
-        <option value="$PROJECT_DIR$/tap_sentry/__init__.py" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/projects.json" />
         <option value="$PROJECT_DIR$/tap_sentry/schemas/users.json" />
+        <option value="$PROJECT_DIR$/tests/data_test/logs_output.json" />
+        <option value="$PROJECT_DIR$/tap_sentry/__init__.py" />
+        <option value="$PROJECT_DIR$/tests/data_test/events_output.json" />
+        <option value="$PROJECT_DIR$/tests/data_test/issues_output.json" />
+        <option value="$PROJECT_DIR$/tests/__init__.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/tests/data_test/teams_output.json" />
+        <option value="$PROJECT_DIR$/tests/data_test/users_output.json" />
         <option value="$PROJECT_DIR$/tap_sentry/sync.py" />
+        <option value="$PROJECT_DIR$/tests/test_sentry.py" />
       </list>
     </option>
   </component>
@@ -209,7 +211,22 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="tap-sentry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tap-sentry" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="tap-sentry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tap-sentry" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
@@ -227,11 +244,21 @@
               <item name="tap_sentry" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="schemas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="tap-sentry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tap-sentry" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="tap-sentry" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="tap-sentry" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data_test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__init__ (1)">
+  <component name="RunManager" selected="Python.test_sentry">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tap-sentry" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,6 +323,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python">
+      <module name="tap-sentry" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tap_github" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tap-github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,8 +365,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_sentry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tap-sentry" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_sentry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_sentry" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.tap_github" />
@@ -351,8 +421,8 @@
     <frame x="0" y="23" width="1680" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.2936508" />
-      <window_info id="Structure" order="1" sideWeight="0.50098234" side_tool="true" weight="0.2899878" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8207283" visible="true" weight="0.33394384" />
+      <window_info id="Structure" order="1" sideWeight="0.17927171" side_tool="true" visible="true" weight="0.33394384" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -360,14 +430,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.50098234" side_tool="true" weight="0.2899878" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5848596" weight="0.40581396" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3267442" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5793651" weight="0.38139534" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.496337" weight="0.45813954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32756633" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3252595" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41514042" side_tool="true" weight="0.41291812" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32871974" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.66727716" visible="true" weight="0.16976744" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.33272284" side_tool="true" visible="true" weight="0.16976744" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32790697" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -378,6 +448,34 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.33028084" />
+      <window_info id="Structure" order="1" sideWeight="0.50098234" side_tool="true" weight="0.2899878" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50098234" side_tool="true" weight="0.2899878" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5848596" weight="0.5790698" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.091860466" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32756633" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14767441" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41514042" side_tool="true" weight="0.41291812" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32790697" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -392,6 +490,36 @@
           <line>498</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///usr/local/lib/python3.7/site-packages/future/types/newstr.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///usr/local/lib/python3.7/site-packages/mypy/join.py</url>
+          <line>283</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tap_sentry/sync.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_sentry.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tap_sentry/sync.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tap_sentry/sync.py</url>
+          <line>197</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -403,7 +531,7 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>self.session.get(url, params=params)</expression-string>
+        <expression-string>self._get(f&quot;/organizations/split-software/projects/&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -413,112 +541,43 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>projects</expression-string>
+        <expression-string>response.links.__len__() &gt;0</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>project</expression-string>
+        <expression-string>response.links</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._get('/organizations/split-software/issues/?project=1452231&amp;start=2019-06-19T15%3A05%3A44')</expression-string>
+        <expression-string>response.links['next']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>query</expression-string>
+        <expression-string>response['next']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._get(query)</expression-string>
+        <expression-string>response</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>urllib.parse.quote(bookmark)</expression-string>
+        <expression-string>project_id</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>urllib.parse.quote(.format(bookmark))</expression-string>
+        <expression-string>events</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tap_github.py" />
-    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3075">
-          <caret line="209" column="4" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2and3/time.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/tap-sentry.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="292" selection-start-line="292" selection-end-line="292" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="661" column="20" lean-forward="true" selection-start-line="661" selection-start-column="20" selection-end-line="661" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -555,27 +614,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="532" column="23" selection-start-line="532" selection-start-column="23" selection-end-line="532" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="864" selection-start-line="864" selection-end-line="864" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py" />
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py" />
     <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/events.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -593,13 +633,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/events.py" />
     <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/teams.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2805">
@@ -608,41 +642,51 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/borrar.json" />
-    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/bookmarks.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/bookmarks.py" />
+    <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2019.1/python_stubs/-1199943126/builtins.py" />
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py" />
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/thread.py" />
+    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/utils.py" />
+    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/messages.py" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="525">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tap_sentry/__init__.py">
+    <entry file="file://$PROJECT_DIR$/tap_sentry.egg-info/requires.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.sample.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/projects.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="9" />
           <folding>
-            <element signature="e#23#32#0" expanded="true" />
+            <element signature="n#!!block;n#firstEvent#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="n#!!block;n#dateCreated#0;n#!!block;n#properties#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2019.1/python_stubs/-1199943126/builtins.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pendulum/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71730">
-          <caret line="4782" column="8" selection-start-line="4782" selection-start-column="8" selection-end-line="4782" selection-end-column="8" />
+        <state relative-caret-position="885">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/utils.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pytz/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7860">
-          <caret line="538" selection-start-line="538" selection-end-line="538" />
+        <state relative-caret-position="1665">
+          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -661,49 +705,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/pytz/__init__.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/catalog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+        <state relative-caret-position="-32">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/pendulum/parser.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/OpenSSL/SSL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        <state relative-caret-position="94">
+          <caret line="1821" selection-start-line="1821" selection-end-line="1821" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/singer/messages.py">
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        <state relative-caret-position="4635">
+          <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/thread.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/mock/mock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="177">
+          <caret line="920" column="8" selection-start-line="920" selection-start-column="8" selection-end-line="920" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data_test/events_output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="676" selection-start-column="676" selection-end-column="676" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data_test/issues_output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="652" selection-start-column="652" selection-end-column="652" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/future/types/newstr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/mypy/join.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="282" column="8" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/posixpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tap_sentry/schemas/projects.json">
+    <entry file="file://$PROJECT_DIR$/tests/data_test/teams_output.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        <state>
+          <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/jsonschema/compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="n#!!block;n#firstEvent#0;n#!!block;n#properties#0;n#!!top" />
-            <element signature="n#!!block;n#dateCreated#0;n#!!block;n#properties#0;n#!!top" />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data_test/users_output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="712" selection-start-column="712" selection-end-column="712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/requests_mock/mocker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="229" selection-start-line="229" selection-end-line="229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data_test/projects_output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8460">
+          <caret line="578" selection-start-line="578" selection-end-line="578" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9930">
+          <caret line="675" selection-start-line="675" selection-end-line="675" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_sentry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="118" column="86" lean-forward="true" selection-start-line="118" selection-start-column="86" selection-end-line="118" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tap_sentry/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tap_sentry/sync.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="-651">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

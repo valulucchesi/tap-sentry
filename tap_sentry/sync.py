@@ -4,6 +4,8 @@ import asyncio
 import urllib
 from pathlib import Path
 from itertools import repeat
+
+from singer import Schema
 from urllib.parse import urljoin
 
 import pytz
@@ -63,7 +65,7 @@ class SentryClient:
             response = self._get(query)
             issues = response.json()
             url= response.url
-            while (response.links['next']['results'] == 'true'):
+            while (response.links is not None and response.links.__len__() >0  and response.links['next']['results'] == 'true'):
                 url = response.links['next']['url']
                 response = self.session.get(url)
                 issues += response.json()
@@ -81,7 +83,7 @@ class SentryClient:
             response = self._get(query)
             events = response.json()
             url= response.url
-            while (response.links['next']['results'] == 'true'):
+            while (response.links is not None and response.links.__len__() >0  and response.links['next']['results'] == 'true'):
                 url = response.links['next']['url']
                 response = self.session.get(url)
                 events += response.json()
@@ -94,7 +96,7 @@ class SentryClient:
             response = self._get(f"/organizations/split-software/teams/")
             teams = response.json()
             extraction_time = singer.utils.now()
-            while (response.links['next']['results'] == 'true'):
+            while (response.links is not None and response.links.__len__() >0  and  response.links['next']['results'] == 'true'):
                 url = response.links['next']['url']
                 response = self.session.get(url)
                 teams += response.json()
@@ -115,6 +117,7 @@ class SentrySync:
     def __init__(self, client: SentryClient, state={}):
         self._client = client
         self._state = state
+        self.projects = self.client.projects()
 
     @property
     def client(self):
@@ -139,10 +142,9 @@ class SentrySync:
         loop = asyncio.get_event_loop()
 
         singer.write_schema(stream, schema.to_dict(), ["id"])
-        projects = await loop.run_in_executor(None, self.client.projects)
         extraction_time = singer.utils.now()
-        if projects:
-            for project in projects:
+        if self.projects:
+            for project in self.projects:
                 issues = await loop.run_in_executor(None, self.client.issues, project['id'], self.state)
                 if (issues):
                     for issue in issues:
@@ -150,14 +152,13 @@ class SentrySync:
 
         self.state = singer.write_bookmark(self.state, 'issues', 'start', singer.utils.strftime(extraction_time))
 
-    async  def sync_projects(self, schema):
+    async def sync_projects(self, schema):
         """Issues per project."""
         stream = "projects"
         loop = asyncio.get_event_loop()
         singer.write_schema('projects', schema.to_dict(), ["id"])
-        projects = await loop.run_in_executor(None, self.client.projects)
-        if projects:
-            for project in projects:
+        if self.projects:
+            for project in self.projects:
                 singer.write_record(stream, project)
 
 
@@ -167,15 +168,14 @@ class SentrySync:
         loop = asyncio.get_event_loop()
 
         singer.write_schema(stream, schema.to_dict(), ["eventID"])
-        projects = await loop.run_in_executor(None, self.client.projects)
         extraction_time = singer.utils.now()
-        if projects:
-            for project in projects:
+        if self.projects:
+            for project in self.projects:
                 events = await loop.run_in_executor(None, self.client.events, project['id'], self.state)
                 if events:
                     for event in events:
                         singer.write_record(stream, event)
-        self.state = singer.write_bookmark(self.state, 'events', 'start', singer.utils.strftime(extraction_time))
+            self.state = singer.write_bookmark(self.state, 'events', 'start', singer.utils.strftime(extraction_time))
 
     async def sync_users(self, schema):
         "Users in the organization."
